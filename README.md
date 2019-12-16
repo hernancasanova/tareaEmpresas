@@ -4,6 +4,7 @@ Pasos para ejecutar la aplicacion (se debe estar en el directorio del proyecto):
 -editar el archivo ".env." con la siguiente linea:
 DB_DATABASE=empresas
 -generar la key de la aplicacion con el comando: php artisan:key genarate
+-ejecutar el comando: npm install
 -instalar dependencias con el comando: composer install
 -ejectutar la migracion con el comando: php artisan migrate
 -levantar la aplicacion con el comando php artisan serve. Ir a :http://localhost:8000 para ver en funcionamiento la aplicación.
